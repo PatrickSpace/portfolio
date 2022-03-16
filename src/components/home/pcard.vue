@@ -1,19 +1,21 @@
 <template>
-  <v-card class="mx-auto my-15 pa-10 grey darken-4" dark elevation="20" max-width="750">
+  <v-card
+    class="mx-auto my-15 pa-10 grey darken-4"
+    dark
+    elevation="20"
+    max-width="750"
+  >
     <v-row>
       <v-col cols="12" sm="1" md="1" lg="1" xl="1" class="ma-auto">
         <v-avatar size="56">
-          <img
-            alt="user"
-            src="@/assets/img/perfil.jpg"
-          />
+          <img alt="user" src="@/assets/img/perfil.jpg" />
         </v-avatar>
       </v-col>
 
-      <v-col cols="12" sm="11" md="11" lg="11" xl="11" >
+      <v-col cols="12" sm="11" md="11" lg="11" xl="11">
         <v-card-title> Hola, soy Patrick </v-card-title>
         <v-card-subtitle class="teal--text">
-          Desarrollador Front-End
+          Consultor en automatización de procesos
         </v-card-subtitle>
       </v-col>
     </v-row>
